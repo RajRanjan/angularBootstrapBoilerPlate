@@ -1,0 +1,23 @@
+{
+  "name": "dragAndDropAngularCodeformer",
+  "authors": [
+    "Raj Ranjan <raj.ranjan91956@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.11.4",
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.7"
+  }
+}
