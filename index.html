@@ -1,4 +1,4 @@
-<html lang="en" ng-app="dragDrop">
+<html lang="en" ng-app="testApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +16,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body ng-controller="testController">
     <div class="container">
-    <h1 class="well">BoilerPlate for Angular Application.</h1>
+	    <h1 class="well">{{caption}}</h1>
     </div>
 
 
@@ -31,6 +31,10 @@
     <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/angular/angular.min.js"></script>
+
+    <!-- application specific files -->
+    <script src="app.js"></script>
+
 
   </body>
 </html>
